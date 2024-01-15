@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+}
+
+.websiteName {
+  color: white;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  outline: auto;
+}
+
+.topNav {
+  padding: 30px;
+}
+
+.searchContainer {
+  margin-left: auto;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  float: right;
+}
+
+.searchBar {
+  width: 300px;
+}
+
+.movieImage {
+  width: 270px;
+  height: 400px;
+  border-radius: 19px;
+}
+
+.movieCard {
+  margin-top: 10px;
+  align-content: center;
+  text-align: center;
+  background-color: dimgray;
+  width: 290px;
+  height: 470px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
+
+.movieCard:hover {
+  background-color: grey;
+}
+
+.movieTitle {
+  color: White;
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  padding-top: 5px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
